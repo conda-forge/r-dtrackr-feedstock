@@ -30,12 +30,14 @@ requirements:
     - r-fs
     - r-glue
     - r-htmltools
+    - r-lifecycle
     - r-magrittr
     - r-pdftools
     - r-png
     - r-purrr
     - r-rlang
     - r-rsvg
+    - r-scales
     - r-stringr
     - r-tibble
     - r-tidyr
@@ -47,12 +49,14 @@ requirements:
     - r-fs
     - r-glue
     - r-htmltools
+    - r-lifecycle
     - r-magrittr
     - r-pdftools
     - r-png
     - r-purrr
     - r-rlang
     - r-rsvg
+    - r-scales
     - r-stringr
     - r-tibble
     - r-tidyr
