@@ -1,4 +1,4 @@
-{% set version = "0.4.6" %}
+{% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dtrackr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dtrackr/dtrackr_{{ version }}.tar.gz
-  sha256: 34ed4021b61ffc92b0bcc6d82f86d27fea8874a2f0926cc4ad66dcaf781da966
+  sha256: 5e9ad69144f54a06efe539debe971dd7f6031a06e3c4a8ee632841c8e71e6fda
 
 build:
   number: 0
@@ -30,12 +30,14 @@ requirements:
     - r-fs
     - r-glue
     - r-htmltools
+    - r-lifecycle
     - r-magrittr
     - r-pdftools
     - r-png
     - r-purrr
     - r-rlang
     - r-rsvg
+    - r-scales
     - r-stringr
     - r-tibble
     - r-tidyr
@@ -47,12 +49,14 @@ requirements:
     - r-fs
     - r-glue
     - r-htmltools
+    - r-lifecycle
     - r-magrittr
     - r-pdftools
     - r-png
     - r-purrr
     - r-rlang
     - r-rsvg
+    - r-scales
     - r-stringr
     - r-tibble
     - r-tidyr
